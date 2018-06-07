@@ -52,7 +52,7 @@ function isAlpha(val) {
   });
 }
 
-app.get('/login', loginMiddleware, function(req, res) {
+app.get('/login', function(req, res) {
   res.send(loginForm);
 });
 
